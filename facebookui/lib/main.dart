@@ -1,6 +1,6 @@
-import 'package:facebookui/facebookUI.dart';
-import 'package:facebookui/facebookUi2.dart';
 import 'package:flutter/material.dart';
+
+import 'facebookUI.dart';
 
 void main() {
   runApp(MaterialApp(home: facebookUI()));
