@@ -18,10 +18,9 @@ class PostWidget extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: double.infinity,
           child: Row(children: [
             Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: EdgeInsets.only(top: 10),
               width: 30,
               height: 30,
               decoration: BoxDecoration(

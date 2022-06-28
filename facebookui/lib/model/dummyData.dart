@@ -7,7 +7,7 @@ import 'package:facebookui/model/user.dart';
 List<Map<String, dynamic>> data = [
   {
     'user': {
-      'name': 'Yusuf',
+      'name': 'Eamonn Koch',
       'image':
           'https://media.istockphoto.com/photos/happy-smiling-man-looking-away-picture-id1158245623?k=20&m=1158245623&s=612x612&w=0&h=rGmn02kNdoQySPEoQmbbDBxOayL4sdW3QWqP9rjgxCg='
     },
@@ -25,7 +25,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Alex Mon',
+      'name': 'Ananya Goddard',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjKiFMTHSbRUpn-6NWJjHPi_ATgGDlbxgo5MWjVgXjOnsxSq2Gyau5nP_iBpvhPstoes&usqp=CAU'
     },
@@ -43,7 +43,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Mohammed Msabeh',
+      'name': 'Murtaza Bautista',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjKiFMTHSbRUpn-6NWJjHPi_ATgGDlbxgo5MWjVgXjOnsxSq2Gyau5nP_iBpvhPstoes&usqp=CAU'
     },
@@ -61,7 +61,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Mohammed Msabeh',
+      'name': 'Teagan Haworth',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbI753o_tUbkDtTEbX5HDzq4k8BZ-9BO3FXYSVZ-UN8-uvpD6rbX_66-eucbHVE71MxKg&usqp=CAU'
     },
@@ -79,7 +79,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Mohammed Msabeh',
+      'name': 'Zayan Tyson',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbI753o_tUbkDtTEbX5HDzq4k8BZ-9BO3FXYSVZ-UN8-uvpD6rbX_66-eucbHVE71MxKg&usqp=CAU'
     },
@@ -97,7 +97,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Mohammed Msabeh',
+      'name': 'Teddie Healy',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbI753o_tUbkDtTEbX5HDzq4k8BZ-9BO3FXYSVZ-UN8-uvpD6rbX_66-eucbHVE71MxKg&usqp=CAU'
     },

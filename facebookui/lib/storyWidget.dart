@@ -22,13 +22,13 @@ class StoryWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
+      padding: const EdgeInsets.symmetric(vertical: 1),
       child: Stack(
         children: [
           Container(
             margin: EdgeInsets.only(right: 10),
-            width: 100,
-            height: 150,
+            width: 80,
+            height: 120,
             decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
@@ -52,13 +52,15 @@ class StoryWidget extends StatelessWidget {
                     image: NetworkImage(Imagepath), fit: BoxFit.cover)),
           ),
           Container(
-            margin: EdgeInsets.only(top: 130, left: 5),
+            width: 85,
+            margin: EdgeInsets.only(top: 100, left: 5),
             child: Text(
+              overflow: TextOverflow.ellipsis,
               StoryName,
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 12),
+                  fontSize: 10),
             ),
           )
         ],
