@@ -16,6 +16,7 @@ class PostWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
           child: Row(children: [
@@ -63,6 +64,10 @@ class PostWidget extends StatelessWidget {
               ),
             ],
           ),
+        ),
+        Padding(
+          padding: EdgeInsets.all(10),
+          child: Text(post?.content ?? ''),
         ),
         Container(
           margin: EdgeInsets.only(top: 10),
