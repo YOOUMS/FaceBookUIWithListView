@@ -76,7 +76,7 @@ class PostWidget extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: DecorationImage(
-                  image: NetworkImage(user?.image ?? ''), fit: BoxFit.cover)),
+                  image: NetworkImage(post?.image ?? ''), fit: BoxFit.cover)),
         ),
         Container(
           margin: EdgeInsets.only(top: 20),

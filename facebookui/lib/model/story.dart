@@ -1,6 +1,8 @@
 class Story {
   String? image;
   Story(Map storys) {
-    this.image = storys['image'];
+    if (storys != null) {
+      this.image = storys['image'];
+    }
   }
 }
