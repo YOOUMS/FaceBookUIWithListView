@@ -128,13 +128,11 @@ class facebookUI extends StatelessWidget {
                 ]),
               ),
               Expanded(
-                child: SizedBox(
-                  child: ListView.builder(
-                    scrollDirection: Axis.vertical,
-                    itemBuilder: (context, index) =>
-                        PostWidget(posts[index].user, posts[index].post),
-                    itemCount: posts.length,
-                  ),
+                child: ListView.builder(
+                  scrollDirection: Axis.vertical,
+                  itemBuilder: (context, index) =>
+                      PostWidget(posts[index].user, posts[index].post),
+                  itemCount: posts.length,
                 ),
               )
             ],
