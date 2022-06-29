@@ -1,5 +1,5 @@
-import 'package:facebookui/model/story.dart';
-import 'package:facebookui/model/user.dart';
+import 'package:facebookui_listView/model/story.dart';
+import 'package:facebookui_listView/model/user.dart';
 
 class StoryRes {
   User? user;

@@ -1,5 +1,5 @@
-import 'package:facebookui/model/post.dart';
-import 'package:facebookui/model/user.dart';
+import 'package:facebookui_listView/model/post.dart';
+import 'package:facebookui_listView/model/user.dart';
 
 class PostRes {
   User? user;

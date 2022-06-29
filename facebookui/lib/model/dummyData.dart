@@ -1,8 +1,8 @@
-import 'package:facebookui/model/post.dart';
-import 'package:facebookui/model/postRes.dart';
-import 'package:facebookui/model/story.dart';
-import 'package:facebookui/model/storyRes.dart';
-import 'package:facebookui/model/user.dart';
+import 'package:facebookui_listView/model/post.dart';
+import 'package:facebookui_listView/model/postRes.dart';
+import 'package:facebookui_listView/model/story.dart';
+import 'package:facebookui_listView/model/storyRes.dart';
+import 'package:facebookui_listView/model/user.dart';
 
 List<Map<String, dynamic>> data = [
   {

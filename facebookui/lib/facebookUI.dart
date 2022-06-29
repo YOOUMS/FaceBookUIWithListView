@@ -1,6 +1,6 @@
-import 'package:facebookui/model/dummyData.dart';
-import 'package:facebookui/postWidget.dart';
-import 'package:facebookui/storyWidget.dart';
+import 'package:facebookui_listView/model/dummyData.dart';
+import 'package:facebookui_listView/postWidget.dart';
+import 'package:facebookui_listView/storyWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -9,17 +9,17 @@ class facebookUI extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: Container(
-        margin: EdgeInsets.only(bottom: 40),
-        child: FloatingActionButton(
-          backgroundColor: Color.fromARGB(255, 35, 79, 145),
-          child: Text(
-            "+",
-            style: TextStyle(fontSize: 30),
-          ),
-          onPressed: null,
-        ),
-      ),
+      // floatingActionButton: Container(
+      //   margin: EdgeInsets.only(bottom: 40),
+      //   child: FloatingActionButton(
+      //     backgroundColor: Color.fromARGB(255, 35, 79, 145),
+      //     child: Text(
+      //       "+",
+      //       style: TextStyle(fontSize: 30),
+      //     ),
+      //     onPressed: null,
+      //   ),
+      // ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(
             label: "feed",
