@@ -8,7 +8,7 @@ class StoryWidget extends StatelessWidget {
   Story? story;
   String StoryName = '';
   String Imagepath =
-      "https://icon-library.com/images/create-icon-png/create-icon-png-8.jpg";
+      "https://cdn-icons.flaticon.com/png/512/4309/premium/4309122.png?token=exp=1656574284~hmac=70744395e1e12880c3114c70ba0554ce";
 
   StoryWidget(this.user, this.story, int index) {
     if (index == 0) {

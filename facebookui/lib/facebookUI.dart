@@ -46,7 +46,7 @@ class facebookUI extends StatelessWidget {
             height: 25,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(100),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage("assets/facebookIcons/user.png"),
                     fit: BoxFit.cover)),
           ),
@@ -118,7 +118,7 @@ class facebookUI extends StatelessWidget {
                   ),
                   Container(
                       margin: EdgeInsets.only(top: 20),
-                      height: 155,
+                      height: MediaQuery.of(context).size.height / 5,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) => StoryWidget(
