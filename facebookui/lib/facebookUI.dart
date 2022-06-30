@@ -118,7 +118,7 @@ class facebookUI extends StatelessWidget {
                   ),
                   Container(
                       margin: EdgeInsets.only(top: 20),
-                      height: 130,
+                      height: 155,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) => StoryWidget(

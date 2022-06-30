@@ -145,6 +145,10 @@ class PostWidget extends StatelessWidget {
             )
           ]),
         ),
+        Divider(
+          thickness: 4,
+          color: Colors.black26,
+        )
       ],
     );
   }

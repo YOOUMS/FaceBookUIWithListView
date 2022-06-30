@@ -28,7 +28,7 @@ class StoryWidget extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(right: 10),
             width: 80,
-            height: 120,
+            height: 140,
             decoration: BoxDecoration(
                 boxShadow: [
                   BoxShadow(
@@ -47,20 +47,21 @@ class StoryWidget extends StatelessWidget {
             width: 25,
             height: 25,
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.white, width: 2),
+                borderRadius: BorderRadius.circular(100),
                 image: DecorationImage(
                     image: NetworkImage(Imagepath), fit: BoxFit.cover)),
           ),
           Container(
             width: 85,
-            margin: EdgeInsets.only(top: 100, left: 5),
+            margin: EdgeInsets.only(top: 120, left: 5),
             child: Text(
               overflow: TextOverflow.ellipsis,
               StoryName,
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 10),
+                  fontSize: 9),
             ),
           )
         ],

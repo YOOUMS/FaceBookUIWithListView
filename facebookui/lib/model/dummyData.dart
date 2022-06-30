@@ -26,7 +26,7 @@ List<Map<String, dynamic>> data = [
   },
   {
     'user': {
-      'name': 'Ananya Goddard',
+      'name': 'Ananya Goddard  ',
       'image':
           'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtjKiFMTHSbRUpn-6NWJjHPi_ATgGDlbxgo5MWjVgXjOnsxSq2Gyau5nP_iBpvhPstoes&usqp=CAU'
     },
